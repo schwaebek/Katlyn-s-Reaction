@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278A123819CB1CF300ECF2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A123719CB1CF300ECF2DF /* AppDelegate.swift */; };
+		278A123A19CB1CF300ECF2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A123919CB1CF300ECF2DF /* ViewController.swift */; };
+		278A123D19CB1CF300ECF2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278A123B19CB1CF300ECF2DF /* Main.storyboard */; };
+		278A123F19CB1CF300ECF2DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278A123E19CB1CF300ECF2DF /* Images.xcassets */; };
+		278A124219CB1CF300ECF2DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278A124019CB1CF300ECF2DF /* LaunchScreen.xib */; };
+		278A124E19CB1CF300ECF2DF /* Katlyn_s_ReactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A124D19CB1CF300ECF2DF /* Katlyn_s_ReactionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278A124819CB1CF300ECF2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278A122A19CB1CF300ECF2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278A123119CB1CF300ECF2DF;
+			remoteInfo = "Katlyn's Reaction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		278A123219CB1CF300ECF2DF /* Katlyn's Reaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Katlyn's Reaction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278A123619CB1CF300ECF2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278A123719CB1CF300ECF2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278A123919CB1CF300ECF2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		278A123C19CB1CF300ECF2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278A123E19CB1CF300ECF2DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		278A124119CB1CF300ECF2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		278A124719CB1CF300ECF2DF /* Katlyn's ReactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Katlyn's ReactionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278A124C19CB1CF300ECF2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278A124D19CB1CF300ECF2DF /* Katlyn_s_ReactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katlyn_s_ReactionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278A122F19CB1CF300ECF2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278A124419CB1CF300ECF2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278A122919CB1CF300ECF2DF = {
+			isa = PBXGroup;
+			children = (
+				278A123419CB1CF300ECF2DF /* Katlyn's Reaction */,
+				278A124A19CB1CF300ECF2DF /* Katlyn's ReactionTests */,
+				278A123319CB1CF300ECF2DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278A123319CB1CF300ECF2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278A123219CB1CF300ECF2DF /* Katlyn's Reaction.app */,
+				278A124719CB1CF300ECF2DF /* Katlyn's ReactionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278A123419CB1CF300ECF2DF /* Katlyn's Reaction */ = {
+			isa = PBXGroup;
+			children = (
+				278A123719CB1CF300ECF2DF /* AppDelegate.swift */,
+				278A123919CB1CF300ECF2DF /* ViewController.swift */,
+				278A123B19CB1CF300ECF2DF /* Main.storyboard */,
+				278A123E19CB1CF300ECF2DF /* Images.xcassets */,
+				278A124019CB1CF300ECF2DF /* LaunchScreen.xib */,
+				278A123519CB1CF300ECF2DF /* Supporting Files */,
+			);
+			path = "Katlyn's Reaction";
+			sourceTree = "<group>";
+		};
+		278A123519CB1CF300ECF2DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278A123619CB1CF300ECF2DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278A124A19CB1CF300ECF2DF /* Katlyn's ReactionTests */ = {
+			isa = PBXGroup;
+			children = (
+				278A124D19CB1CF300ECF2DF /* Katlyn_s_ReactionTests.swift */,
+				278A124B19CB1CF300ECF2DF /* Supporting Files */,
+			);
+			path = "Katlyn's ReactionTests";
+			sourceTree = "<group>";
+		};
+		278A124B19CB1CF300ECF2DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278A124C19CB1CF300ECF2DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278A123119CB1CF300ECF2DF /* Katlyn's Reaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278A125119CB1CF300ECF2DF /* Build configuration list for PBXNativeTarget "Katlyn's Reaction" */;
+			buildPhases = (
+				278A122E19CB1CF300ECF2DF /* Sources */,
+				278A122F19CB1CF300ECF2DF /* Frameworks */,
+				278A123019CB1CF300ECF2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Katlyn's Reaction";
+			productName = "Katlyn's Reaction";
+			productReference = 278A123219CB1CF300ECF2DF /* Katlyn's Reaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		278A124619CB1CF300ECF2DF /* Katlyn's ReactionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278A125419CB1CF300ECF2DF /* Build configuration list for PBXNativeTarget "Katlyn's ReactionTests" */;
+			buildPhases = (
+				278A124319CB1CF300ECF2DF /* Sources */,
+				278A124419CB1CF300ECF2DF /* Frameworks */,
+				278A124519CB1CF300ECF2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278A124919CB1CF300ECF2DF /* PBXTargetDependency */,
+			);
+			name = "Katlyn's ReactionTests";
+			productName = "Katlyn's ReactionTests";
+			productReference = 278A124719CB1CF300ECF2DF /* Katlyn's ReactionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278A122A19CB1CF300ECF2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Katlyn Schwaebe";
+				TargetAttributes = {
+					278A123119CB1CF300ECF2DF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					278A124619CB1CF300ECF2DF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 278A123119CB1CF300ECF2DF;
+					};
+				};
+			};
+			buildConfigurationList = 278A122D19CB1CF300ECF2DF /* Build configuration list for PBXProject "Katlyn's Reaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278A122919CB1CF300ECF2DF;
+			productRefGroup = 278A123319CB1CF300ECF2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278A123119CB1CF300ECF2DF /* Katlyn's Reaction */,
+				278A124619CB1CF300ECF2DF /* Katlyn's ReactionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278A123019CB1CF300ECF2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278A123D19CB1CF300ECF2DF /* Main.storyboard in Resources */,
+				278A124219CB1CF300ECF2DF /* LaunchScreen.xib in Resources */,
+				278A123F19CB1CF300ECF2DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278A124519CB1CF300ECF2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278A122E19CB1CF300ECF2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278A123A19CB1CF300ECF2DF /* ViewController.swift in Sources */,
+				278A123819CB1CF300ECF2DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278A124319CB1CF300ECF2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278A124E19CB1CF300ECF2DF /* Katlyn_s_ReactionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278A124919CB1CF300ECF2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278A123119CB1CF300ECF2DF /* Katlyn's Reaction */;
+			targetProxy = 278A124819CB1CF300ECF2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		278A123B19CB1CF300ECF2DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278A123C19CB1CF300ECF2DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278A124019CB1CF300ECF2DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278A124119CB1CF300ECF2DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278A124F19CB1CF300ECF2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		278A125019CB1CF300ECF2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278A125219CB1CF300ECF2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Katlyn's Reaction/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		278A125319CB1CF300ECF2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Katlyn's Reaction/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		278A125519CB1CF300ECF2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Katlyn's ReactionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katlyn's Reaction.app/Katlyn's Reaction";
+			};
+			name = Debug;
+		};
+		278A125619CB1CF300ECF2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Katlyn's ReactionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Katlyn's Reaction.app/Katlyn's Reaction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278A122D19CB1CF300ECF2DF /* Build configuration list for PBXProject "Katlyn's Reaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278A124F19CB1CF300ECF2DF /* Debug */,
+				278A125019CB1CF300ECF2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278A125119CB1CF300ECF2DF /* Build configuration list for PBXNativeTarget "Katlyn's Reaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278A125219CB1CF300ECF2DF /* Debug */,
+				278A125319CB1CF300ECF2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		278A125419CB1CF300ECF2DF /* Build configuration list for PBXNativeTarget "Katlyn's ReactionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278A125519CB1CF300ECF2DF /* Debug */,
+				278A125619CB1CF300ECF2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278A122A19CB1CF300ECF2DF /* Project object */;
+}
