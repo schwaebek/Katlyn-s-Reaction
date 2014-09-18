@@ -9,9 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var timerBar = UIView()
+    
+    var buttons = [UIButton](count: 3, repeatedValue: UIButton())
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
